@@ -1,5 +1,39 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: lightgreen;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+/* HEADER SECTION */
+
+/*Centre the header and the text below */
+
+.header {
+    text-align: center;
+    background-color: aquamarine;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: lightsalmon;
+    border: 1px solid #555;
+    margin-top: 50px;
+    padding: 50px;
+    margin: 100px;
+}
+
+.item-1, .item-2, .item-3,
+.item-4, .item-5, .item-6 {
+    border: 1px solid #555;
+    min-height: 20vh;
 }
