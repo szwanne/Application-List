@@ -29,7 +29,7 @@ body {
     border: 1px solid #555;
     margin-top: 50px;
     padding: 50px;
-    margin: 100px;
+    margin: 80px;
 }
 
 .item-1, .item-2, .item-3,
@@ -60,4 +60,18 @@ body {
 .item-4 img, .item-5 img, .item-6 img {
     background-color: red;
     border-radius: 50%;
+}
+
+/*BUTTON SECTION */
+
+input {
+    width: 85px;
+    height: 40px;
+    background-color: #101830;
+    color: white;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 100px;
 }
