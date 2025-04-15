@@ -27,15 +27,14 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     background-color: lightsalmon;
     border: 1px solid #555;
-    margin-top: 50px;
-    padding: 50px;
-    margin: 80px;
+    padding: 40px;
+    margin: 40px;
 }
 
 .item-1, .item-2, .item-3,
 .item-4, .item-5, .item-6 {
     border: 1px solid #555;
-    min-height: 20vh;
+    min-height: 10vh;
 }
 
 .item-1, .item-2, .item-3,
@@ -73,5 +72,14 @@ input {
 
 .button {
     text-align: center;
-    margin-bottom: 100px;
+}
+
+/* PSEUDO ELEMENTS */
+
+.text h3::after {
+    content: url(/images/badge/verified.svg);
+    position: relative;
+    vertical-align: middle;
+    margin: 0.5rem;
+
 }
