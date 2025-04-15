@@ -51,8 +51,7 @@ body {
 .item-5 h3, .item-5 p,
 .tem-6 h3, .item-6 p {
     margin-top: 15px;
-    text-wrap: wrap;
-    width: 300px;
+    min-width: 300px;
 }
 
 .item-1 img, .item-2 img, .item-3 img,
