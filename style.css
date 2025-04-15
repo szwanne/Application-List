@@ -28,7 +28,9 @@ body {
     background-color: lightsalmon;
     border: 1px solid #555;
     padding: 40px;
-    margin: 40px;
+    margin: 40px auto;
+    max-width:min-content;
+    border-radius: 10px;
 }
 
 .item-1, .item-2, .item-3,
@@ -68,10 +70,21 @@ input {
     height: 40px;
     background-color: #101830;
     color: white;
+    border-radius: 6px;
 }
 
 .button {
     text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+input:hover {
+    background-color: lightblue;
+    color: #000;
+    transform: scale(1.1);
+    transition: 0.3ms ease-in-out;
+    cursor: pointer;
 }
 
 /* PSEUDO ELEMENTS */
